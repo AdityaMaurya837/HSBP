@@ -1,0 +1,67 @@
+.downloadApp-container{
+    margin-top: -8rem;
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    overflow: hidden;
+}
+
+.downloadApp-container-img{
+    float: right !important;
+    width:40% ;
+}
+
+.downloadApp-container-img img{
+    width: 300px;
+    position: relative;
+    left: 7rem;
+}
+
+.downloadApp-container-content{
+    width:60%;
+    position: relative;
+    top: 3rem;
+}
+
+.downloadApp-container-content h2{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.downloadApp-container-content p{
+    position: relative;
+    top: -3rem;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.downloadApp-container-content-playstore{
+    position: relative;
+    top: -2rem;
+}
+.downloadApp-container-content-playstore img:last-child{ 
+margin-left: 10px;
+}
+
+.downloadApp-container-content h4{
+    margin-top: 20px;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.downloadApp-container-search-bar input{
+ border: 1px solid #000;
+ width: 350px;
+ height: 30px;
+ border-radius: 5px;
+}
+
+.downloadApp-button{
+    background: #666;
+    width: 100px;
+    height: 32px;
+    position: relative;
+    right: 6.2rem;
+    border-radius:5px ;
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="498.031" height="561.624" viewBox="0 0 498.031 561.624">
+  <defs>
+    <filter id="Path_327" x="0" y="6.922" width="486.51" height="554.702" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2023" data-name="Group 2023" transform="translate(18)">
+    <path id="Path_328" data-name="Path 328" d="M.058,329.194s-6.977,160.5,131.5,97.793,261.259-97.793,261.259-97.793,63.584-13.7,49.646-87.247S389.31,44,389.31,44,378.868-19.488,303.1,6.061,72.823,60.049,72.823,60.049s-62.076,8.89-64.654,71.424S.058,329.194.058,329.194Z" transform="translate(36.658 0) rotate(4)" fill="#b13592"/>
+    <g transform="matrix(1, 0, 0, 1, -18, 0)" filter="url(#Path_327)">
+      <path id="Path_327-2" data-name="Path 327" d="M17261.461,612.093s-7.059,183,133.289,111.5,264.818-111.5,264.818-111.5,64.449-15.615,50.318-99.475-31.785-240.988-31.785-240.988-10.59-72.385-87.387-43.254-255.5,76.849-255.5,76.849-62.91,10.136-65.527,81.436S17261.461,612.093,17261.461,612.093Z" transform="translate(-17243.4 -201.54)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

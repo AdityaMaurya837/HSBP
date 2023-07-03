@@ -1,0 +1,152 @@
+/* SearchBar.css */
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .search-icon {
+    margin-right: 8px;
+    color: #888;
+  }
+  
+  input[type="text"] {
+    border: none;
+    outline: none;
+  }
+  
+  .input-box{
+    display: flex;justify-content: center;
+    align-items: center;
+  }
+
+  /* LocationInput.css */
+.location-input {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .location-icon {
+    margin-right: 8px;
+    color: #888;
+  }
+  
+  .dropdown-icon {
+    margin-left: 8px;
+    color: #888;
+  }
+  
+  input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
+  }
+
+  .location-input{
+    margin-right: 10px;
+  }
+  
+  
+
+.location {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.location-card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;    
+  opacity: 1;
+  text-align: center;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 20px 20px 15px #00000029;
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.location-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.location-shop{
+  margin-top: 2rem;
+}
+
+.location-shop h3{
+  margin-left: 3%;
+  color: #8B2E5D;
+  font-weight: 500;
+}
+
+.location-contant{
+  margin-top: 10rem;
+  display: flex;
+  width: 100%;
+}
+
+.location-contant p{
+   font-size: 11px;
+   color: #707070;
+}
+
+.location-contant .location-contant-heading{
+   width: 50%;
+}
+
+.location-contant .location-contant-heading h4{
+  color: #B13592;
+}
+
+.location-contant .location-contant-heading p{
+  margin-top: -10px;
+}
+
+.location-contant .location-contant-reting{
+  width: 50%;
+  margin-top: 1.5rem;
+}
+
+.location-contant .location-contant-reting .rate{
+  width: 60px;
+  height: 25px;
+  background: #23AA1E;
+  margin: auto;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.location-contant .location-contant-reting .rate img{
+  margin-top: 2px;
+}
+
+button {
+  background: transparent linear-gradient(253deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  height: 30px;
+  width: 150px;
+  border: none;
+  color: #fff;
+  font:normal normal medium 20px/19px Poppins ;
+}
